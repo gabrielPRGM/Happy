@@ -18,6 +18,7 @@ h1,
 
 #logo {
   animation-delay: 50ms;
+  opacity: 0;
 }
 
 .location {
