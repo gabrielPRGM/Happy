@@ -56,7 +56,10 @@ main h1 {
 @media (min-width: 760px) {
 
   #container {
-    background-image: url("../bg.png");
+    #container {
+      padding: 5rem;
+      background: url("bg.svg") no-repeat 80% /
+        clamp(30rem, 54vw, 56rem);
   }
   
   header {
